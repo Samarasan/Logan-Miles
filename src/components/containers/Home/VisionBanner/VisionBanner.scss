@@ -1,0 +1,124 @@
+@import "../../../../assets/scss/index.scss";
+
+.vison-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  // margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: Helvetica;
+  background-color: black;
+  color: white;
+}
+
+.vision_text-wrapper {
+  flex: 0 0 47%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  border-left: 2px solid white;
+  padding: 0 40px;
+  margin: 40px 0;
+}
+
+.vision_text-wrapper h4 {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.vision_text-wrapper h2 {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.vision_text-wrapper p {
+  line-height: 35px;
+  word-spacing: 1px;
+  letter-spacing: 0.1px;
+  margin-bottom: 10px;
+  margin: 0 auto 10px;
+}
+
+.vision_text-wrapper a {
+  color: #fff;
+  font-weight: 500;
+  background-color: #48494b;
+  padding-top: 0;
+  padding-right: 15px;
+  padding-bottom: 0;
+  padding-left: 15px;
+  text-transform: capitalize;
+  height: 44px;
+  line-height: 44px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+.vision_image-wrapper {
+  flex: 0 0 45%;
+}
+
+.vision_image-wrapper img {
+  width: 100%;
+}
+
+.vision_image-wrapper video {
+  width: 100%;
+}
+
+.vision_image-wrapper-vdo {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  object-position: center center;
+  opacity: 1;
+}
+
+.vision_skate-board-img {
+  width: 100%;
+  height: 600px;
+}
+
+@media (max-width: 989px) {
+  .vison-wrapper {
+    flex-flow: column;
+    padding: 0 20px;
+    background-color: unset;
+    color: black;
+    margin-top: 30px;
+  }
+  .vision_text-wrapper {
+    display: flex;
+    border-left: unset;
+    align-items: center;
+    padding: unset;
+    margin: unset;
+    text-align: center;
+  }
+
+  .vision_image-wrapper {
+    margin-top: 20px;
+    order: 2;
+  }
+
+  .vision_image-wrapper-vdo {
+    height: 100%;
+  }
+
+  .mt {
+    margin-top: 40px;
+  }
+
+  .vision_skate-board-img {
+    height: 500px;
+  }
+}
+
+@media (max-width: 400px) {
+  .vision_text-wrapper {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+  }
+}

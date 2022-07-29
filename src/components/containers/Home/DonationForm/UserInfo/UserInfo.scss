@@ -1,0 +1,84 @@
+@import "../../../../../assets/scss/index.scss";
+
+.donation--form__item {
+  position: relative;
+  margin-bottom: 30px;
+  width: 50%;
+  color: white;
+  padding-right: 20px;
+}
+
+.df-form-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.donation--form__input {
+  // @include textInput;
+  // -webkit-appearance: none;
+  // display: block;
+  // padding: 12px 14px;
+  // border-radius: 14px;
+   width: 100%;
+   //margin-left: 20px;
+   line-height: normal;
+  // resize: none;
+  // transition: border-color 0.1s ease-in-out;
+  // background: white;
+  // box-shadow: 0 10px 5px 2px RGB(0 0 0/1%), 0 7px 7px -7px RGB(0 0 0/10%), 0 8px 24px -14px RGB(0 0 0/20%);
+  // outline: 0;
+  // color: #939393;
+  padding: 10px;
+  height: 60px;
+  background: white;
+   border: 1px solid white;
+}
+
+.donation__floating--label {
+  position: absolute;
+  bottom: calc(100% - 8px);
+  left: 10px;
+  padding: 0 5px;
+  line-height: normal;
+  color: white;
+  font-size: 14px;
+  opacity: 0;
+  background: rgba(255, 255, 255, 0);
+  pointer-events: none;
+  transform: translateY(3px);
+  transition: all 0.3s ease-in-out;
+  font-size: large;
+}
+
+.donation--form__input:not(:placeholder-shown) ~ .donation__floating--label {
+  opacity: 1;
+  transform: translateY(0);
+  background: #DF3311;
+}
+// .donation__floating--label {
+//   position: absolute;
+//   bottom: calc(100% - 8px);
+//   left: 209px;
+//   background: #f2f2f2 !important;
+//   padding: 2px 9px;
+//   border-radius: 9px;
+//   line-height: normal;
+//   color: #37383c;
+//   font-size: 14px;
+//   opacity: 0;
+//   pointer-events: none;
+//   transform: translateY(3px);
+//   transition: all 0.3s ease-in-out;
+//   font-size: large;
+// }
+
+// .donation--form__input:not(:placeholder-shown) ~ .donation__floating--label {
+//   @include onFloat;
+// }
+
+@media screen and (max-width: 1023px) {
+  .donation--form__item {
+    width: 94%;
+    padding-right: 0;
+  }
+}

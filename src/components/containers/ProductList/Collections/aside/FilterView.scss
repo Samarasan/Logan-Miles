@@ -1,0 +1,36 @@
+.Filter-List {
+  line-height: 1;
+  height: 100%;
+  margin: 4px 0;
+  font-family: "JosefinSansRegular";
+}
+
+.Filter-List-title {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  margin: 8px 0px;
+  font-family: "JosefinSansSemiBold";
+}
+
+.Filter-List-title > .fs-name {
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #252525;
+}
+
+.inlineBox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.inlineBox > * {
+  padding: 8px 6px;
+  text-transform: capitalize;
+  flex: 1 1;
+  margin-right: 5px;
+}

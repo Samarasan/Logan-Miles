@@ -1,0 +1,219 @@
+.brd-amb-banner {
+  width: 100%;
+  height: 400px;
+  background-image: url(../../../../../assets/image/Banner/Banner2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.brd-element {
+  position: relative;
+  text-align: left;
+}
+
+.brd-element-inner {
+  padding: 10px;
+}
+
+.brd-inner-content {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.brd-col-md-25 {
+  min-height: 1px;
+  width: 100%;
+}
+
+.brd-element:before,
+.brd-element:after,
+.brd-element-inner:before,
+.brd-element-inner:after,
+.brd-inner-content:before,
+.brd-inner-content:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.brd-element-column > .brd-element-inner {
+  padding: 10px;
+}
+
+.brd-img-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: -80px !important;
+}
+
+.brd-image-wrapper {
+  display: inline-block;
+  line-height: 0;
+  max-width: 100%;
+  font-size: 1.4rem;
+  position: relative;
+  border-width: 2px;
+  border-style: solid;
+  text-align: right;
+  color: #000;
+}
+
+.brd-image-wrapper img {
+  border-color: #ebebeb;
+  max-width: 100%;
+  height: auto;
+}
+
+.brd-col-md-7 {
+  position: relative;
+  min-height: 1px;
+}
+
+.brd-element-heading-text {
+  margin-bottom: 10px;
+  color: #000;
+  font-family: "JosefinSansBold";
+}
+
+.brd-element-inner p {
+  color: #000;
+}
+
+.brd-card-wrapper {
+  margin: 50px 50px 30px;
+}
+
+.brd-img-main {
+  height: 300px !important;
+  object-fit: cover;
+}
+
+.brd-img-display {
+  overflow: hidden;
+}
+.brd-img-showcase {
+  display: flex;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+.brd-img-showcase img {
+  min-width: 100%;
+}
+.brd-img-select {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.brd-img-item {
+  margin: 0.3rem;
+}
+.brd-img-item:nth-child(1),
+.brd-img-item:nth-child(2),
+.brd-img-item:nth-child(3) {
+  margin-right: 0;
+}
+.brd-img-item:hover {
+  opacity: 0.8;
+}
+.brd-card-content {
+  padding: 2rem 0rem;
+  margin: 2rem;
+}
+.brd-card-title {
+  font-size: 2rem;
+  position: relative;
+  color: #000;
+  font-family: "JosefinSansBold";
+  margin: 2rem 0;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.brd-social-link {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  color: #000;
+  font-family: "JosefinSansBold";
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.brd-social-link-user {
+  padding-left: 10px;
+}
+
+.brd-social-link .icon {
+  width: 30px;
+  height: 30px;
+  margin-top: -10px;
+}
+
+@media screen and (min-width: 992px) {
+  .brd-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+  }
+  .brd-card-wrapper {
+    // height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .brd-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .brd-card-content {
+    padding-top: 0;
+  }
+}
+
+.brd-img-thumb {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+@media (min-width: 1200px) {
+  .brd-col-md-25 {
+    width: 30%;
+    float: left;
+  }
+  .brd-col-md-7 {
+    width: 70%;
+    float: left;
+  }
+  .brd-img-container {
+    margin-top: -60px !important;
+  }
+
+  .brd-card-wrapper {
+    //   max-width: 1300px;
+    //   margin: 50px auto 30px;
+    margin: 70px 50px 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .brd-card-wrapper {
+    margin: 50px 10px 30px;
+  }
+  .brd-card-content {
+    margin: 0rem 0;
+    padding: 0;
+  }
+  .brd-card-title {
+    margin: 0 0 2rem;
+  }
+
+  .brd-social-link {
+    margin-bottom: 2rem;
+  }
+}

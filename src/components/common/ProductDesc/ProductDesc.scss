@@ -1,0 +1,56 @@
+@import "../../../assets/scss/index";
+
+.ProductItem__Info {
+  margin-top: 20px;
+}
+.ProductItem__Info--left {
+  text-align: left;
+}
+.ProductItem__Info--right {
+  text-align: right;
+}
+
+.ProductItem__Info--center {
+  text-align: center;
+}
+
+.ProductItem__Title {
+  margin-bottom: -14px;
+}
+
+.Price {
+  display: inline-block;
+}
+.Price--highlight {
+  color: $primary-color;
+}
+.Price--compareAt {
+  position: relative;
+  margin-left: 10px;
+}
+
+.Price--compareAt::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: -0.4em;
+  width: calc(100% + 0.8em);
+  height: 1px;
+  background: currentColor;
+  color: #939393;
+}
+
+.info-text {
+  font-family: "AcidBold";
+  //   font-weight: 600;
+  font-style: normal;
+  color: #5c5c5c;
+  margin: 5px 0;
+  transition: color 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 640px) {
+  .info-text {
+    font-weight: 300px;
+  }
+}

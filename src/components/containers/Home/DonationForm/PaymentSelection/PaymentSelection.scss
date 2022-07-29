@@ -1,0 +1,48 @@
+.pay-inputs-list {
+  margin: 25px 0 25px 29px;
+  padding: 0;
+  list-style: none;
+  width: 90%;
+  margin-bottom: 0;
+}
+
+.pay-form-radio {
+  padding-left: 0;
+  line-height: 1.5;
+}
+
+@media (min-width: 1024px) {
+  .pay-form-radio {
+    font-size: 2rem;
+  }
+}
+
+.pay-form-radio-display {
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.df-payment-input {
+  vertical-align: middle;
+  margin-right: 15px;
+  display: inline-block;
+  margin-top: 0;
+  width: auto;
+  height: auto;
+}
+
+.df-payment-span {
+  vertical-align: middle;
+  font-style: normal;
+  display: inline-block;
+  color: black;
+  margin-left: 20px;
+  font-size: 1rem;
+  line-height: 1;
+}

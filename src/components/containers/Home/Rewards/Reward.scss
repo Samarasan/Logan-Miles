@@ -1,0 +1,64 @@
+.reward-Container{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    h2{
+        margin-left: 16%;
+    }
+    h3{
+        margin-left: 26%;
+        font-size: 23px;
+    }
+    p{
+        font-size: 23px;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+   
+}
+.reward-Container img{
+    width: 31%;
+}
+.reward-Container h2 {
+    font-size: 70px;
+}
+.flip-countdown.size-extra-small .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec {
+    margin: 0 0.025em;
+    font-size: 37px !important;
+}
+.flip-countdown.theme-light .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec .card__bottom{
+    color: black;
+}
+.flip-countdown.theme-light .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec .card__top{
+    color: black;
+}
+@media(max-width:767px){
+    .reward-Container {
+    h2 {
+        font-size: 40px;
+    }
+     h3  {
+        margin-left: 15%;
+        font-size: 15px;
+    }
+    p{
+        margin-left: 15%;
+        font-size: 15px;
+    }
+}
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .reward-Container {
+        h2{
+            font-size: 52px;
+        }
+         h3  {
+            margin-left: 25%;
+            font-size: 15px;
+        }
+        p{
+            margin-left: 15%;
+            font-size: 15px;
+        }
+}
+}

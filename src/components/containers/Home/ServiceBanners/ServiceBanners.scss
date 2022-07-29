@@ -1,0 +1,425 @@
+@import "../../../../assets/scss/index.scss";
+
+
+.MuiTypography-root{
+  font-family: JosefinSansRegular !important;
+  // color: white !important;
+}
+img.ctcicon {
+  width: 13%;
+}
+.foundertext {
+  margin: auto 100px;
+  padding: 20px 0px 40px 0px;
+  color: black;
+}
+.fwords {
+  padding-top: 15px;
+  text-align: center;
+  color: #DF3311;
+  h2{
+    font-size: 50px;
+  }
+}
+.founderContainer{
+  background: #ddd;
+}
+input.contct-form {
+  border: 1px solid;
+  height: 52px;
+  // text-transform: capitalize;
+  padding-left: 10px;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+  padding-bottom: 13px !important;
+  border-radius: 0px !important;
+  color: white !important;
+  font-family: "Roboto","Helvetica","Arial",sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    line-height: 1.4375em !important;
+    letter-spacing: 0.00938em !important;
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  color: white !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+  border-color: white !important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color: white !important;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+  color: white !important;
+}
+.css-xn6ruc>:not(style) {
+  margin: 1px 8px 8px 14px !important;
+  color: white;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  font: inherit !important;
+  letter-spacing: inherit !important;
+  color: currentColor !important;
+  height: 2.4375em !important;
+  border: 0 !important;
+  background: none !important;
+  margin: 0 !important;
+  -webkit-tap-highlight-color: transparent !important;
+  display: block !important;
+  min-width: 0 !important;
+  width: 100% !important;
+  animation-name: mui-auto-fill-cancel !important;
+  animation-duration: 10ms !important;
+  padding: 16.5px 14px !important;
+}
+.hp_image_with_text {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 100px;
+  color: black;
+  height: auto;
+  font-family: Helvetica;
+  background-size: 100% 100%;
+}
+.contactwrapper {
+  color: white;
+  font-family: JosefinSansRegular;
+  text-align: left;
+  margin: 6px 0px 25px 43px;
+  font-size: 23px;
+}
+textarea.tex {
+  border: 1px solid white;
+  padding: 12px 83px 12px 14px;
+  border-radius: 14px;
+  background: white;
+  color: #939393;
+  margin-left: 22px;
+}
+.edit-enquiry {
+  padding: 10px 20px;
+  margin-left: 16em;
+  background: transparent;
+  margin-top: 10px;
+  font-family: "JosefinSansSemiBold";
+  font-size: var(--font-size-12);
+  border-radius: 1px;
+  color: white;
+}
+.edit-enquiry:hover{
+  background-color: white;
+}
+.menuSocial {
+  flex: none;
+  padding: 10px 0px;
+}
+ul.menu-social li {
+  margin-left: 18px;
+}
+.abtText {
+  position: absolute;
+  text-align: center;
+  top: 28%;
+  left: 10%;
+  font-family: lulo-clean-w01-one-bold, lulo-clean-w05-one-bold, sans-serif;
+  color: white;
+  font-size: 46px;
+  font-weight: 700;
+}
+.hp_image_with_text img {
+  width: 16%;
+}
+.aboutText{
+  text-align: center;
+   p {
+    width: 76%;
+    margin: auto;
+  }
+}
+.instalist li {
+  display: inline;
+}
+.instalist li img {
+  width: 25%;
+}
+.eventRally {
+  text-align: center;
+  color: white;
+}
+.eventRally ul li{
+ 
+  font-family: Helvetica;
+  font-size: 20px;
+  line-height: 80px;
+}
+.hp_text-wrapper {
+  flex: 0 0 47%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  //color: #707070;
+  text-align: center
+}
+
+.hp_text-wrapper h2 {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font: normal normal normal 29px/39px Helvetica Neue;
+  color: #DF3311;
+}
+.hp_text-wrapper h3 {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font: normal normal normal 22px/33px Helvetica Neue;
+}
+
+.hp_text-wrapper p {
+  line-height: 35px;
+  word-spacing: 1px;
+  letter-spacing: 0.1px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin: 0 auto 10px;
+  font-family:  Helvetica Neue;
+  font-size: 20px;
+}
+
+// .hp_text-wrapper span {
+//   color: #fff;
+//   font-weight: 500;
+//   background-color: #48494b;
+//   padding-top: 0;
+//   padding-right: 15px;
+//   padding-bottom: 0;
+//   padding-left: 15px;
+//   text-transform: capitalize;
+//   height: 44px;
+//   line-height: 44px;
+//   display: inline-block;
+//   text-decoration: none;
+//   margin: 20px 0;
+//   background-image: url(../../../../assets/image/BANNER.png);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+
+.hp_image-wrapper {
+  flex: 0 0 35%;
+  margin-left: 44px;
+}
+
+.hp_image-wrapper img {
+  width: 100%;
+  height: 300px;
+}
+
+.hp_image-wrapper video {
+  width: 100%;
+}
+
+.hp_image-wrapper-vdo {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  object-position: center center;
+  opacity: 1;
+}
+
+.hp_skate-board-img {
+  width: 100%;
+  height: 600px;
+}
+
+@media (max-width: 989px) {
+  .hp_image_with_text {
+    flex-flow: column;
+    padding: 0 20px;
+  }
+  .hp_image-wrapper {
+    margin-top: 20px;
+    order: 2;
+  }
+  p.space {
+    margin-top: 18px;
+}
+
+  .hp_image-wrapper-vdo {
+    height: 100%;
+  }
+
+  .mt {
+    margin-top: 0px;
+  }
+
+  .hp_skate-board-img {
+    height: 500px;
+  }
+}
+
+.service-head-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: Helvetica;
+  color: black;
+}
+
+.service-head_text-wrapper {
+  flex: 0 0 40%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  border-left: 2px solid black;
+  padding: 0 40px;
+  margin: 40px 0;
+}
+
+.service-head_text-wrapper h4 {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.service-head_text-wrapper h2 {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  line-height: 50px;
+}
+
+@media (max-width: 989px) {
+  .service-head-wrapper {
+    flex-flow: column;
+    padding: 0 20px;
+  }
+  .service-head_text-wrapper {
+    display: flex;
+    padding: 0 0 0 20px;
+    margin: unset;
+  }
+
+  .service-head_text-wrapper h2 {
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hp_text-wrapper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+  .hp_text-wrapper p {
+    text-align: center;
+  }
+}
+@media (max-width: 760px) {
+  .MuiGrid-grid-xs-6{
+    max-width: 100% !important;
+    flex-basis: 100% !important;
+  }
+  .foundertext{
+    margin: auto 20px;
+  }
+  .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-8{
+    padding-left: 15px !important;
+    text-align: center;
+  }
+
+  form.MuiBox-root.css-0 textarea {
+    width: 251px !important;
+    margin-left: 7px !important;
+}
+.edit-enquiry{
+  margin-left: 0em;
+}
+.abtText {
+  display: none;
+  
+}
+}
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+  .MuiGrid-spacing-xs-2{
+    width: 100% !important;
+  }
+  .abtText{
+    display: none;
+  }
+  textarea{
+    width: 248px !important;
+  }
+  .edit-enquiry{
+    margin-left: 7em;
+  }
+}
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+  .MuiGrid-spacing-xs-2{
+    width: 100% !important;
+  }
+  textarea{
+    width: 248px !important;
+  }
+  .edit-enquiry{
+    margin-left: 7em;
+  }
+  .abtText{
+    display: none;
+  }
+}
+@media screen and (min-device-width: 1025px) and (max-device-width: 1240px) { 
+  .MuiGrid-spacing-xs-2{
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-device-width: 1241px) and (max-device-width: 1550px) { 
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+  padding-bottom: 13px !important;
+  border-radius: 0px !important;
+  color: white !important;
+  font-family: "Roboto","Helvetica","Arial",sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    line-height: 1.4375em !important;
+    letter-spacing: 0.00938em !important;
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  color: white !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+  border-color: white !important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color: white !important;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+  color: white !important;
+}
+.css-xn6ruc>:not(style) {
+  margin: 1px 8px 8px 14px !important;
+  color: white;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  font: inherit !important;
+  letter-spacing: inherit !important;
+  color: currentColor !important;
+  height: 2.4375em !important;
+  border: 0 !important;
+  background: none !important;
+  margin: 0 !important;
+  -webkit-tap-highlight-color: transparent !important;
+  display: block !important;
+  min-width: 0 !important;
+  width: 100% !important;
+  animation-name: mui-auto-fill-cancel !important;
+  animation-duration: 10ms !important;
+  padding: 16.5px 14px !important;
+}
+
+}

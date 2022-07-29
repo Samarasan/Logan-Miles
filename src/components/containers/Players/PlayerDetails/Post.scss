@@ -1,0 +1,18 @@
+.Sliderpics {
+    height: 70%;
+    width: 70%;
+    left: 1.5cm !important;
+  
+    object-fit: cover;
+    object-position: center;
+  
+    position: relative;
+    bottom: 0cm;
+  }
+
+  .slick-prev:before, .slick-next:before{
+    color: black !important;
+    font-size: 30px !important;
+  } 
+
+ 

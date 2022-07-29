@@ -1,0 +1,107 @@
+@import "../../../assets/scss/index.scss";
+
+.searchBar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding: 30px 20px;
+  background-color: white;
+  background: #e7e7e7;
+  z-index: 999;
+  box-shadow: 0 -1px #e7e7e7 inset;
+}
+
+.searchBar--inner {
+  display: flex;
+  width: 100%;
+}
+
+.searchBar--wrapper {
+  display: block;
+  width: 100%;
+}
+
+.searchcontainer {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.searchBox {
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
+
+.sform-group {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.sform-control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: $primary-color;
+  background-color: #fff;
+  background-image: none;
+  border-radius: 0;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.sform-button {
+  position: absolute;
+  margin-top: 0;
+  top: 0;
+  height: 40px;
+  width: 50px;
+  right: 0;
+  padding: 0;
+  font-size: 24px;
+  border: none;
+  appearance: none;
+  text-align: center;
+  cursor: pointer;
+  min-height: 40px;
+  line-height: 1.2;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.search-header-close {
+  display: inline;
+  border: 0 none;
+  background: 0 0;
+  padding: 0;
+  margin: 0;
+  padding: 0 7px;
+}
+
+.icon-search-close {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.icon-search-close path {
+  fill: none !important;
+  stroke-width: 4px;
+  stroke: currentColor !important;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+@media screen and (max-width: 360px) {
+  .searchBar {
+    padding: 0px;
+  }
+  .text-link {
+    padding: 0 10px;
+  }
+}

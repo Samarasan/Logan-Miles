@@ -1,0 +1,91 @@
+@import "../../../../../assets/scss/index.scss";
+
+.eventBanner {
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+  img{
+    filter: brightness(0.5);
+  }
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  margin: auto;
+  z-index: -1;
+  background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+}
+
+.slideimg {
+  vertical-align: middle;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slidesactive {
+  display: block;
+}
+
+.slidesinactive {
+  display: none;
+}
+
+.homepage-center-promo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.homepage-center-promo-head {
+  font-size: 6rem;
+  margin-bottom: 20px;
+  //margin-top: 3em;
+}
+
+@media screen and (max-width: 1000px) {
+  .homepage-center-promo-head {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .homepage-center-promo-head {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  .homepage-center-promo-content {
+    font-size: 0.5rem;
+  }
+}

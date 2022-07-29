@@ -1,0 +1,145 @@
+.column_content {
+  padding: 0 20px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1400px;
+  position: relative;
+  font-family: "PublicSans", sans-serif;
+  letter-spacing: 1px;
+  background: #221333;
+}
+
+@media (min-width: 768px) {
+  .column_content {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .column_content {
+    padding: 0 30px 75px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .column_content {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .column_content {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+// 2nd Section
+@media (min-width: 1024px) {
+  .column_content__col {
+    width: 100%;
+    flex: 0 1 100%;
+  }
+}
+
+.df-main {
+  max-width: 550px;
+  padding: 4%;
+  background-color: #fff;
+  border: 0 px solid #eee;
+  border-radius: 3 px;
+  color: #fff;
+}
+
+#df-card-container {
+  position: relative;
+  z-index: 10;
+  max-width: none;
+  width: 100%;
+  background-image: url(../../../../assets/image/bgDonate.png),
+    -webkit-gradient(linear, left bottom, left top, color-stop(100%, #212062), to(#674090));
+  background-image: url(../../../../assets/image/bgDonate.png),
+    linear-gradient(0deg, #212062 100%, #674090 100%);
+
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-bottom: 5rem;
+}
+
+fieldset {
+  max-width: none !important;
+  border: 0px;
+  padding: 0px;
+  color: #fff;
+}
+
+.hs-form-field {
+  margin-top: 0;
+  position: relative;
+  padding-bottom: 0;
+}
+
+.hs-form-field-label {
+  display: block;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.df-form-head {
+  color: black;
+  display: block;
+  font-size: 1;
+  line-height: 1.666666667;
+  word-break: break-word;
+  text-align: center;
+}
+
+.df-form-head p {
+  display: block;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-family:JosefinSansSemiBold;
+  margin: 15px 0px;
+ //  padding-top: 2rem;
+ // border-top: 1px solid black;
+  width: 95%;
+  color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+  .df-form-head p{
+   // border-top: 1px solid black;
+    width: 88%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+  .df-form-head p{
+    border-top: 1px solid black;
+    width: 88%;
+  }
+}
+@media (max-width: 1023px) {
+  #df-card-container {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 0;
+    // margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .column_content .form__alert {
+    width: 48%;
+    font-family: "PublicSans", sans-serif;
+  }
+}
+
+@media (max-width: 700px) {
+  #df-card-container {
+    margin-bottom: 3rem;
+  }
+}

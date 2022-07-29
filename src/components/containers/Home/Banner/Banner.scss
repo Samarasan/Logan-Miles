@@ -1,0 +1,144 @@
+@import "../../../../assets/scss/index.scss";
+
+.mySlides {
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  margin: auto;
+  z-index: -1;
+}
+
+.slideimg {
+  vertical-align: middle;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slidesactive {
+  display: block;
+}
+
+.slidesinactive {
+  display: none;
+}
+
+.homepage-center-promo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family:JosefinSansSemiBold;
+}
+.homepage_center_ral {
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: JosefinSansSemiBold;
+  padding: 10px 27px;
+  background: #DF3311;
+  border-radius: 50px;
+  cursor: pointer !important;
+}
+.homepage-center-ico{
+  position: absolute;
+  top: 94%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: JosefinSansSemiBold;
+}
+.homepage-center-ico img {
+  height: 45px;
+}
+.homepage-center-ral:hover {
+border: 1px solid white !important;
+}
+.homepage-center-promo-head {
+  font-size: 6rem;
+  margin-bottom: 0px;
+}
+
+.homepage-center-promo span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  font-size: 25px;
+  color: #fff;
+  text-shadow: 0 1px 0 #ccc, 0 1px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 2px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 3px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .homepage-center-promo-head {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .homepage-center-promo {
+    top: 47%;
+  }
+  .homepage-center-promo-head {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  .homepage-center-promo-content {
+    font-size: 0.5rem;
+  }
+  .homepage_center_ral {
+    top: 69%;
+    font-size: 11px;
+    padding: 1px 9px;
+}
+.homepage-center-promo span {
+  top: -8px;
+  font-size: 11px;
+}
+.homepage-center-ico{
+  top: 87%;
+}
+.homepage-center-ico img {
+  height: 33px;
+}
+}

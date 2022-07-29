@@ -1,0 +1,34 @@
+.profile-text {
+  text-align: center;
+  color: #000;
+  font-family: "JosefinSansRegular";
+}
+
+.profile-content {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.toggle-btn button {
+  background: #221333;
+  color: white;
+  margin-left: 18px;
+}
+.profile-content > * {
+  margin-bottom: 20px;
+}
+
+.edit-profile {
+  padding: 10px 20px;
+  font-family: "JosefinSansSemiBold";
+  font-size: var(--font-size-12);
+}
+
+@media(max-width:767px) {
+  .toggle-btn {
+    display: flex;
+}
+}

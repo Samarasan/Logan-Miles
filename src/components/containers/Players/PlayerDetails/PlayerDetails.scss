@@ -1,0 +1,353 @@
+.detailContainer{
+    position: relative;
+}
+
+.brd-amb-banner {
+    width: 100%;
+    height: 400px;
+  }
+  .fb a{
+    margin-top: 5px;
+  }
+  .insta span{
+    margin-left: 10px;
+  }
+  .plydetails {
+    color: white;
+    margin-bottom: 20px;
+}
+  .brd-card-wrapper{
+      position: absolute;
+      top: 10%;
+  }
+  .brd-element {
+    position: relative;
+    text-align: left;
+  }
+  
+  .brd-element-inner {
+    padding: 10px;
+  }
+  
+  .brd-inner-content {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .brd-col-md-25 {
+    min-height: 1px;
+    width: 100%;
+  }
+  
+  .brd-element:before,
+  .brd-element:after,
+  .brd-element-inner:before,
+  .brd-element-inner:after,
+  .brd-inner-content:before,
+  .brd-inner-content:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  
+  .brd-element-column > .brd-element-inner {
+    padding: 10px;
+  }
+  
+  .brd-img-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: -80px !important;
+  }
+  
+  .brd-image-wrapper {
+    display: inline-block;
+    line-height: 0;
+    max-width: 100%;
+    font-size: 1.4rem;
+    position: relative;
+    border-width: 2px;
+    border-style: solid;
+    text-align: right;
+    color: #000;
+  }
+  .userComments{
+  position: relative;
+  h2 {
+    padding: 20px 0px 13px 0px;
+    margin-left: 14.5%;
+}
+}
+  .brd-image-wrapper img {
+    border-color: #ebebeb;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .brd-col-md-7 {
+    position: relative;
+    min-height: 1px;
+  }
+  
+  .brd-element-heading-text {
+    margin-bottom: 10px;
+    color: #000;
+    font-family: "JosefinSansBold";
+  }
+  
+  .brd-element-inner p {
+    color: #000;
+  }
+  
+  .brd-card-wrapper {
+    margin: 50px 50px 30px;
+  }
+  
+  .brd-img-main {
+    height: 300px !important;
+    object-fit: cover;
+  }
+  
+  .brd-img-display {
+    overflow: hidden;
+  }
+  .brd-img-showcase {
+    display: flex;
+    width: 95%;
+    transition: all 0.5s ease;
+}
+  .brd-img-showcase img {
+    width: 79.5%;
+    padding: 84px;
+    margin-left: 6em;
+}
+  .brd-img-select {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .brd-img-item {
+    margin: 0.3rem;
+  }
+  .brd-img-item:nth-child(1),
+  .brd-img-item:nth-child(2),
+  .brd-img-item:nth-child(3) {
+    margin-right: 0;
+  }
+  .brd-img-item:hover {
+    opacity: 0.8;
+  }
+  .brd-card-content {
+    padding: 1rem 0rem;
+    margin: 6rem;
+}
+  .brd-card{
+      background-color: #000;
+      text-align: left;
+  }
+  .brd-card-title {
+    font-size: 4.3em;
+    color: white;
+    font-family: lulo-clean-w01-one-bold, lulo-clean-w05-one-bold, sans-serif;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+
+  
+  .brd-social-link {
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 13px;
+    color: white;
+    font-family: lulo-clean-w01-one-bold, lulo-clean-w05-one-bold, sans-serif;;
+    line-height: 1.5;
+  }
+  
+  .brd-social-link-user {
+    padding-left: 10px;
+  }
+  
+  .brd-social-link .icon {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+  }
+  .ply-crd-detail {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 3em;
+}
+  .ply-crd-det{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 1em;
+  }
+  .carousell-container {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 83%;
+    padding: 3% 0px 3% 0px;
+    h2{
+      margin-left: 4%;
+    margin-bottom: 4%;
+    }
+}
+//likes section
+.likes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  img{
+    width: 5%;
+  }
+}
+span.likeCount {
+  position: absolute;
+  left: 82%;
+  top: 34%;
+}
+img.heart {
+  width: 14%;
+  position: absolute;
+}
+
+//comment section 
+
+.commentSection{
+  position: relative;
+  
+  .msgIcon {
+      width: 3.2%;
+      left: 1%;
+      position: absolute;
+  }
+  }
+  @media screen and (min-width: 992px) {
+    .brd-card {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1.5rem;
+    }
+    .brd-card-wrapper {
+      // height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .brd-images {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .brd-card-content {
+      padding-top: 0;
+    }
+  }
+  
+  .brd-img-thumb {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+  }
+  
+  @media (min-width: 1200px) {
+    .brd-col-md-25 {
+      width: 30%;
+      float: left;
+    }
+    .brd-col-md-7 {
+      width: 70%;
+      float: left;
+    }
+    .brd-img-container {
+      margin-top: -60px !important;
+    }
+  
+    .brd-card-wrapper {
+      //   max-width: 1300px;
+      //   margin: 50px auto 30px;
+      margin: 70px 50px 30px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .brd-card-wrapper {
+      margin: 0;
+      position: relative;
+      top: 0;
+    }
+    .brd-img-showcase{
+        width: 100%;
+    }
+    .brd-img-showcase img{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .brd-card-content {
+      margin: 0rem ;
+      padding: 13px;
+    }
+    .brd-card-title {
+      margin: 0 0 2rem;
+    }
+    .ply-crd-detail{
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    .ply-crd-det {
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+    }
+    // .plydetails{
+    //   text-align: center;
+    // }
+    .brd-social-link {
+      margin-bottom: 2rem;
+    }
+  }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .brd-card-wrapper {
+        margin: 0;
+        position: relative;
+        top: 0;
+      }
+      .brd-card-content {
+        margin: 0rem ;
+        padding: 13px;
+      }
+      .ply-crd-detail{
+          margin: 0;
+          padding: 0px 43px;
+      }
+      .brd-card-title{
+        font-size: 3.3em;
+        text-align: center;
+      }
+      .brd-social-link{
+        padding: 0px 42px;
+      }
+  }
+
+
+  .qrscan {
+    text-align: center;
+    border: 1px solid;
+    margin-left: 20em;
+    margin-bottom: 1em;
+    width: 21%;
+    line-height: 33px;
+    .iii{
+     // width:30%
+    }
+}  

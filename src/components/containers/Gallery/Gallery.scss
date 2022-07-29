@@ -1,0 +1,132 @@
+.gallerySec {
+    background: #221333;
+    text-align: center;
+    padding-bottom:60px;
+    h3 {
+      font-size: 33px;
+      padding-top: 30px;
+      font-weight: 900;
+      color: white;
+    }
+    p {
+      padding-top: 10px;
+      color: white;
+      padding-bottom: 85px;
+    }
+  }
+  .galex{
+    margin-top: 30px;
+    width: 4%;
+  }
+
+.fullwrap {
+    position: relative; 
+    margin-top: 13px;
+  }
+  .fullwrap img { 
+      width: 100%; 
+    object-fit: cover;
+    }
+  .fullcap {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    text-align: center;
+    padding-top: 30%;
+    background-color: #6279A9;
+    color: black;
+    text-transform: uppercase;
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .fullwrap:hover .fullcap {
+    visibility: visible; 
+    opacity: 0.6;
+    font-weight: 700;
+    font-size: 40px;
+  }  
+
+  .pageCtr{
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    max-width: 65%;
+} 
+.galleryGrid {
+    width: 100%;
+    float: left;
+    margin-bottom: 18px;
+}
+
+.fullwr {
+    width: 40%;
+    position: relative; /* required for (c2) */
+    margin-top: 13px;
+    float: left;
+  }
+   
+  /* (B) RESPONSIVE IMAGE */
+  .fullwr img {
+    width: 20em;
+    object-fit: cover;
+    height: 23em;
+}
+.full {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    text-align: center;
+    padding-top: 30%;
+    background-color: #6279A9;
+    color: black;
+    text-transform: uppercase;
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+  } 
+.fullwr:hover .full {
+        visibility: visible; 
+        opacity: 0.6;
+        font-weight: 700;
+        font-size: 40px;
+      }  
+
+      
+      
+   ////@at-root
+   
+   .fullwraper2 {
+    width: 60%;
+    position: relative; /* required for (c2) */
+    margin-top: 13px;
+    float: right;
+  }
+   
+  /* (B) RESPONSIVE IMAGE */
+ .fullwraper2 img { 
+      width: 100%; 
+    object-fit: cover;
+    }
+    .fullca {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0; left: 0;
+        text-align: center;
+        padding-top: 30%;
+        background-color: #6279A9;
+        color: black;
+        text-transform: uppercase;
+        visibility: none; opacity: 0;
+        transition: opacity 0.3s;
+      }
+.fullwraper2:hover .fullca {
+        visibility: visible; 
+        opacity: 0.6;
+        font-weight: 700;
+        font-size: 40px;
+      }  

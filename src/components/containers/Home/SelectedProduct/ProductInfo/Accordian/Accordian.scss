@@ -1,0 +1,71 @@
+@import "../../../../../../assets/scss/index.scss";
+
+.accordian-group {
+  margin: 20px 0;
+}
+
+.accordion {
+  &-content {
+    overflow: hidden;
+    height: 0;
+
+    .accordion-open & {
+      height: auto;
+    }
+  }
+}
+
+.accordion-title {
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+  padding: 10px 20px;
+  background-color: $primary-color;
+  border-bottom: solid 1px white;
+  //   border-radius: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid currentColor;
+  }
+}
+
+.accordion-open {
+  box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.accordion-open .accordion-title::after {
+  transform: rotate(-180deg);
+}
+
+.desc-list {
+  list-style: none;
+  &-item {
+    padding: 20px;
+    overflow: hidden;
+    border-bottom: 2px solid $primary-color;
+    background-color: #ffffff;
+  }
+}
+
+.desc-data {
+  margin: 0 24px 0 0;
+  float: left;
+
+  &-right {
+    margin: 0;
+    float: right;
+  }
+
+  a {
+    text-decoration: none;
+    color: #da0028;
+  }
+}

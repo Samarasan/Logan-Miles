@@ -1,0 +1,125 @@
+.policy {
+  border: 1px solid #e1e1e1;
+  margin: 50px auto 50px;
+  max-width: 95%;
+  overflow: hidden;
+  padding: 20px 15px;
+  background: #fff;
+  width: 100%;
+  overflow-x: hidden;
+  line-height: 28px;
+
+  Link {
+    color: blue;
+  }
+}
+
+.policy p {
+  line-height: 28px;
+}
+
+.policy-head {
+  line-height: 28px;
+  font-weight: 500;
+  color: #3f414d;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.policy-subhead {
+  line-height: 28px;
+  font-family: "JosefinSansSemiBold";
+  margin: 20px 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.policy-text {
+  margin: 20px 0;
+  line-height: 28px;
+}
+
+.policy ul {
+  margin-bottom: 20px;
+  padding-left: 40px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.policy li {
+  margin-bottom: 20px;
+  list-style: disc;
+}
+
+@media screen and (max-width: 400px) {
+  .policy ul {
+    padding-left: 20px;
+  }
+}
+
+// About Us
+
+.about-us-main {
+  width: 95%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.pr {
+  position: relative;
+}
+
+.about-bot {
+  text-align: center;
+  background: url(../../../assets/image/BANNER.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-cont {
+  z-index: 2;
+  width: 48%;
+  margin: auto;
+  color: white;
+  padding: 3%;
+  text-align: left;
+}
+
+.about-bot p {
+  line-height: 33px;
+}
+.about-us-main p {
+  line-height: 28px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .banner-cont {
+    width: 68%;
+    top: 3%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .bann-imag {
+    display: none;
+  }
+  .banner-cont {
+    color: #3f414d;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    left: 0%;
+  }
+  .bann-head {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner-cont {
+    // text-align: center;
+    width: 100%;
+  }
+}

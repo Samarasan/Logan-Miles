@@ -1,0 +1,27 @@
+.list-header {
+  position: relative;
+  margin: 18px 0;
+  font-family: "JosefinSansSemiBold";
+}
+
+.list-container {
+  margin: 0 auto;
+  padding: 0 18px;
+}
+
+.list-container__wrapper {
+  text-align: center;
+  text-transform: lowercase;
+}
+.list-container__wrapper::first-letter {
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 641px) {
+  .list-header {
+    margin: 20px 0;
+  }
+  .list-container {
+    padding: 0 20px;
+  }
+}

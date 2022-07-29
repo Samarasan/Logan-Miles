@@ -1,0 +1,23 @@
+.form-box {
+    margin-top: 26px;
+}
+.previewImg {
+    text-align: center;
+    border: 1px solid;
+    margin: 10px auto;
+    height: 100px;
+    font-size: 31px;
+    width: 236px;
+    padding-top: 5%;
+    border-radius: 22px;
+}
+.preImg{
+    text-align: center;
+    margin: 10px auto;
+    img{
+        height: 100px;
+        width: 236px;
+        object-fit: contain;
+    }
+    
+}
